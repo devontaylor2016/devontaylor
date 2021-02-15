@@ -1,0 +1,84 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+
+
+
+/*Added details*/
+
+.row {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: Consolas;
+    color: turquoise;
+    background-color: white;
+}
+
+.page-header {
+    height: 30vh !important;
+    min-height: 30vh !important;
+    max-height: 30vh !important;
+
+}
+
+.page-body {
+    min-height: 70vh !important;
+}
+
+.carousel-height {
+    height: 60vh !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(100,102,203, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+    .page-header h2 {
+
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+
+    }
+
+    .page-header h2 span {
+        background: #fff;
+        padding: 0 10px;
+
+    }
+
+.carousel-control-next-icon:after {
+    color: red;
+}
+
+.carousel-control-prev-icon:after {
+    color: red;
+}
+
+.carousel-indicators li {
+    background-color: turquoise;
+    /*background-color: rgba(70, 70, 70, 0.25);*/
+}
+
+.carousel-indicators .active {
+    background-color: blue;
+}
